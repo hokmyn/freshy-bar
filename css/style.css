@@ -104,6 +104,10 @@ fieldset {
 .text-red {
   color: #f44;
 }
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
 /* header */
 .header {
   padding: 36px 0;
@@ -278,6 +282,7 @@ fieldset {
   grid-row: 1/3;
   font-weight: 400;
   font-size: inherit;
+  min-height: 30px;
 }
 .coctail__price {
   text-align: right;
@@ -1024,6 +1029,11 @@ fieldset {
     left: -100%;
   }
 
+  100% {
+    bottom: -30%;
+    left: 56%;
+  }
+}
   100% {
     bottom: -30%;
     left: 56%;
